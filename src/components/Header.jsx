@@ -1,8 +1,8 @@
 function Header() {
     return (
-        <header className="min-h-[155px] bg-[#777866] px-5 py-5 lg:px-[50px] flex flex-col lg:flex-row lg:items-center">
+        <header className="min-h-[140px] bg-[#777866] px-5 py-5 lg:px-[50px] flex flex-col lg:flex-row lg:items-center">
 
-            <h1 className="m-0 text-white font-bold font-serif text-[36px] lg:text-[58px] text-center lg:text-left whitespace-normal lg:whitespace-nowrap drop-shadow-[3px_3px_4px_rgba(0,0,0,0.35)]">
+            <h1 className="m-0 text-white font-bold font-serif text-[36px] lg:text-[50px] text-center lg:text-left whitespace-normal lg:whitespace-nowrap drop-shadow-[3px_3px_4px_rgba(0,0,0,0.35)]">
                 Timeless Legacy
             </h1>
 
@@ -30,11 +30,20 @@ function Header() {
                 </a>
 
                 <a
+                    href="/gallery"
+                    className="text-white no-underline font-bold text-[20px] lg:text-[26px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
+                >
+                    Gallery
+                </a>
+
+                <a
                     href="/contact"
                     className="text-white no-underline font-bold text-[20px] lg:text-[26px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
                 >
                     Contact
                 </a>
+
+
 
             </nav>
 
