@@ -33,7 +33,7 @@ function Footer() {
             <div className="border-t border-white/30 py-[15px]">
 
                 <p className="m-0 text-sm">
-                    © 2025 Timeless Legacy. All rights reserved.
+                    © 2026 Timeless Legacy. All rights reserved.
                 </p>
 
             </div>
