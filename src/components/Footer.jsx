@@ -15,11 +15,7 @@ function Footer() {
                 <div>
 
                     <p className="my-2">
-                        Contact No.: 09658710921
-                    </p>
-
-                    <p className="my-2">
-                        Facebook: Iya Sabellita
+                        Contact No.: 09000000000
                     </p>
 
                     <p className="my-2">
