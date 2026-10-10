@@ -6,54 +6,54 @@ function Header() {
                 Timeless Legacy
             </h1>
 
-            <nav className="flex flex-col lg:flex-row items-center gap-3 lg:gap-[25px] mt-5 lg:mt-0 lg:ml-[100px]">
+            <div className="flex flex-col lg:flex-row items-center gap-5 lg:gap-[50px] mt-5 lg:mt-0 lg:ml-auto">
 
-                <a
-                    href="/"
-                    className="text-white no-underline font-bold text-[20px] lg:text-[26px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
-                >
-                    Home
-                </a>
+                <nav className="flex flex-col lg:flex-row items-center gap-3 lg:gap-[30px]">
 
-                <a
-                    href="/about"
-                    className="text-white no-underline font-bold text-[20px] lg:text-[26px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
-                >
-                    About Us
-                </a>
+                    <a
+                        href="/"
+                        className="text-white no-underline font-bold text-[40px] lg:text-[25px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
+                    >
+                        Home
+                    </a>
 
-                <a
-                    href="/highlights"
-                    className="text-white no-underline font-bold text-[20px] lg:text-[26px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
-                >
-                    Highlights
-                </a>
+                    <a
+                        href="/about"
+                        className="text-white no-underline font-bold text-[40px] lg:text-[25px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
+                    >
+                        About Us
+                    </a>
 
-                <a
-                    href="/gallery"
-                    className="text-white no-underline font-bold text-[20px] lg:text-[26px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
-                >
-                    Gallery
-                </a>
+                    <a
+                        href="/highlights"
+                        className="text-white no-underline font-bold text-[40px] lg:text-[25px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
+                    >
+                        Highlights
+                    </a>
 
-                <a
-                    href="/contact"
-                    className="text-white no-underline font-bold text-[20px] lg:text-[26px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
-                >
-                    Contact
-                </a>
+                    <a
+                        href="/gallery"
+                        className="text-white no-underline font-bold text-[40px] lg:text-[25px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
+                    >
+                        Gallery
+                    </a>
 
+                    <a
+                        href="/contact"
+                        className="text-white no-underline font-bold text-[40px] lg:text-[25px] whitespace-nowrap transition duration-200 hover:text-[#e4d2ae]"
+                    >
+                        Contact
+                    </a>
 
+                </nav>
 
-            </nav>
-
-            <div className="ml-0 lg:ml-auto mt-5 lg:mt-0 flex items-center">
-
-                <img
-                    src="/media/logo.png"
-                    alt="Timeless Legacy Logo"
-                    className="w-[90px] h-[90px] lg:w-[120px] lg:h-[120px] object-cover rounded-full border-[3px] border-[#cdb695] shadow-[0_3px_10px_rgba(0,0,0,0.25)]"
-                />
+                <div className="flex items-center shrink-0">
+                    <img
+                        src="/media/logo.png"
+                        alt="Timeless Legacy Logo"
+                        className="w-[90px] h-[90px] lg:w-[120px] lg:h-[120px] object-cover rounded-full border-[3px] border-[#cdb695] shadow-[0_3px_10px_rgba(0,0,0,0.25)]"
+                    />
+                </div>
 
             </div>
 
